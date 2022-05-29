@@ -176,11 +176,13 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   text-align: center;
+  padding-top: 94px;
 }
 
 .what-we-do {
   display: flex;
   justify-content: center;
+  padding-bottom: 94px;
 }
 
 .imagewedo {
@@ -204,6 +206,7 @@ body {
   display: inline-flex;
   align-items: center;
   list-style: none;
+  padding-top: 50px;
 }
 
 .teamborder {
