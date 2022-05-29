@@ -57,7 +57,7 @@ body {
   letter-spacing: 0.03em;
   font-family: Raleway;
   text-decoration: none;
-  padding-left: 215px;
+  padding-left: 100px;
 }
 
 .logofooter {
@@ -146,6 +146,7 @@ body {
 .firstpagebuisness {
   background-color: #2f303a;
   min-height: 600px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,7 +170,7 @@ body {
   align-items: center;
   text-align: left;
   list-style: none;
-  padding-left: 215px;
+  padding-left: 93px;
 }
 
 .lorem {
@@ -194,6 +195,10 @@ body {
   letter-spacing: 0.03em;
   list-style-type: none;
   color: #757575;
+}
+
+.description:first-child {
+  margin-left: 0;
 }
 .description:last-child {
   margin-right: 0;
