@@ -103,7 +103,8 @@ body {
 
 .contacts1 {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  flex: inline;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -216,7 +217,8 @@ body {
   display: inline-flex;
   align-items: center;
   list-style: none;
-  padding-top: 50;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding: 0;
   border: 0;
   line-height: 1.4em;
@@ -334,8 +336,6 @@ body {
 }
 
 .photos-list {
-  max-width: 370px;
-  max-height: 404px;
   margin: 15px;
   text-align: left;
   list-style-type: none;
